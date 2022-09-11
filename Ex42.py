@@ -1,6 +1,3 @@
-from re import X
-
-
 a=1
 b=2
 x=a/b
