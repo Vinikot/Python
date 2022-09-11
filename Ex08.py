@@ -1,11 +1,8 @@
-a = float(input('Base do retangulo: '))
+v1 = int(input('Digite o primeiro valor: '))
 
-b = float(input('Altura do retangulo: '))
+v2 = int(input('Digite o segundo valor: '))
 
-area = a * b
-
-print('Area do retangulo: ', area)
-
-if(area > 100):
-    print('Grande Terreno.')
-
+if (v1 > v2):
+    print('O primeiro valor é o maior.')
+else:
+    print('O segundo valor é o maior.')

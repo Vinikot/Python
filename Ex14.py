@@ -1,15 +1,5 @@
-import string
-
-
-alt = float(input('Digite a sua altura em (m): '))
- 
-peso = float(input('Digite o seu peso (em Kg): '))
-
-sexo = string(input("Sexo - F ou M ?: "))
-vsexo = string("M" or "F")
-while sexo != vsexo:
-    sexo = string(input("Sexo- F ou M ?: "))
- 
+alt = float(input('Digite a sua altura em (m): ')) 
+peso = float(input('Digite o seu peso (em Kg): ')) 
 imc = peso / (alt * alt)
  
 if imc < 20:

@@ -1,12 +1,9 @@
-d=0
-c=1
+a=1
 b=1
-a=-1
-print(f"{b}\n{c}")
-for i in range(1,21,1):   
-    d=c+b+a
+c=1
+for i in range(1, 21, 1):
+    print(a)
+    d=b+a+c
     a=b
     b=c
-    c=d
-    print(d)
-#corrigir
+    c=d 

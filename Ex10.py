@@ -1,12 +1,9 @@
-a = float(input('Digite o primeiro valor(A): '))
+v1 = int(input('Digite o primeiro valor: '))
+v2 = int(input('Digite o segundo valor: '))
 
-b = float(input('Digite o segundo valor(B): '))
-
-c = float(input('Digite o terceiro valor(C): '))
-
-if(a > (b and c)):
-    print("A é o maior valor.")
-elif(b > (a and c)):
-    print("B é o maior valor.")
+if (v1 > v2):
+    print('O primeiro valor é o maior.')
+elif (v1 == v2):
+    print('Os valores são idênticos.')
 else:
-    print("C é o maior valor.")
+    print('O segundo valor é o maior.')

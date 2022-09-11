@@ -1,12 +1,6 @@
-alt = float(input('Digite a sua altura em (m): '))
- 
-peso = float(input('Digite o seu peso (em Kg): '))
- 
-imc = peso / (alt * alt)
- 
-if imc < 20:
-    print("Abaixo do peso!")
-elif imc < 25:
-    print("Peso ideal!")
-else:
-    print("Acima do peso!")
+b = int(input('Digite o valor da base do retângulo: '))
+h = int(input('Digite o valor da altura do retângulo: '))
+a = b * h
+
+if (a > 100):
+    print('Terreno grande!\nA área do retângulo é: ', a)

@@ -1,17 +1,12 @@
-x = float(input('Digite o lado(A): '))
+v1 = int(input('Digite o primeiro valor: '))
 
-y = float(input('Digite o lado(B): '))
+v2 = int(input('Digite o segundo valor: '))
 
-z = float(input('Digite o lado(C): '))
+v3 = int(input('Digite o terceiro valor: '))
 
-if(x > (y and z) and x != (y and z)):
-    c = x; a = y; b = z 
-elif(y > (x and z) and y !=(x and z)):
-    c = y; a = x; b = z
+if (v1 > v2) and (v1 > v3):
+    print('O primeior valor é o maior')
+elif (v2 > v1) and (v2 > v3):
+    print('O segundo valor é o maior.')
 else:
-    c = z; a = x; b = y
-
-if((a*a) + (b*b) == (c*c)):
-    print("Os lado formam um Triângulo Retângulo.")
-else:
-    print("Os lados não formam um Triângulo Retângulo")
+    print('O terceiro valor é o maior.')

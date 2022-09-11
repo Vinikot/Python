@@ -24,3 +24,4 @@ elif(sts == 5):
     print("O programa foi encerrado.")
 else:
     print("Opção invalida, por favor selecione uma opção valida.")
+    sts = int(input("Escolha uma opção a seguir:\n1 – Multiplicação\n2 – Adição\n3 – Divisão\n4 – Subtração\n5 – Fim de processo (sair do programa)\n"))

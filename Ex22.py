@@ -2,7 +2,7 @@ sts = int(input("Escolha uma opção a seguir:\n1 – Triângulo\n2 – Quadrado
 
 if(sts > 5):
     print("Opção invalida, por favor selecione uma opção valida.")
-    sts = sts - sts
+    sts = int(input("Escolha uma opção a seguir:\n1 – Triângulo\n2 – Quadrado\n3 – Retângulo\n4 – Círculo\n5 – Fim de processo (sair do programa)\n"))
 
 if(sts == 1):
     o1a = float(input("Base do triangulo:"))
@@ -26,3 +26,4 @@ elif(sts == 5):
     print("O programa foi encerrado.")
 else:
     print("Opção invalida, por favor selecione uma opção valida.")
+    sts = int(input("Escolha uma opção a seguir:\n1 – Triângulo\n2 – Quadrado\n3 – Retângulo\n4 – Círculo\n5 – Fim de processo (sair do programa)\n"))
