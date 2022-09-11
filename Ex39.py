@@ -6,4 +6,3 @@ for i in range(1,31,1):
     c=b+a
     a=b
     b=c
-    

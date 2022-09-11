@@ -9,3 +9,4 @@ for i in range(1,21,1):
     b=c
     c=d
     print(d)
+#corrigir
