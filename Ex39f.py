@@ -1,8 +1,7 @@
-a=0
+a=1
 b=1
-c=b+a
 for i in range(1,31,1):   
-    print(c)
+    print(a)
     c=b+a
     a=b
     b=c
