@@ -9,5 +9,10 @@ if(n>x):
 else:
     n1=n
     x1=x
+a=n1
 for n1 in range(n1,x1+1,1):
-    print(n1)
+    if(n1==a):
+        s=n1
+    else:
+        s=s+n1
+print(s)

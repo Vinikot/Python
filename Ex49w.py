@@ -9,6 +9,11 @@ if(n>x):
 else:
     n1=n
     x1=x
+a=n1
 while(n1<=x1):
-    print(n1)
+    if(n1==a):
+        s=n1
+    else:
+        s=s+n1
     n1=n1+1
+print(s)
