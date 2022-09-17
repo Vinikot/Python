@@ -14,7 +14,7 @@ while(r!="N"):
         if(x==item):
             print(f"O valor({x}) foi armazenado na posição({j}).")
             a=a+1
-        elif(i==n-1 and a!=1):
+        elif(j==n-1 and a!=1):
             print("Valor não encontrada.")
         j=j+1
     r=input("Deseja uma nova execução? (S) ou (N): ")
