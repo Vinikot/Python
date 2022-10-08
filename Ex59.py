@@ -14,4 +14,6 @@ for i in range(0,100,1):
     if(idade[i]>18):
         print(f"{i+1}°Nome:{nome[i]}\n{i+1}°Idade:{idade[i]}\n{i+1}°Sexo:{sexo[i]}\n")
         j=j+1
+        if(i%10==0):
+            input("-->.Digite uma tecla.<--\n")
 print("Numero de pessoas maiores que 18 anos: ",j)
